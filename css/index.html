@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+  <head>
+    <title>Agrohelps</title>
+    <meta charset="utf-8">
+    <meta
+            name="description"
+            content="Práctica - Introducción a HTML."
+        />
+    <meta name="keywords" content="Practica, Uya , html" />
+    <meta name="author" content="Adán de la Rosa Lugo" />
+    <meta name="author" content="Alejandro Estévez Chinea" />
+    <meta name="author" content="Óscar Ignacio Pozo Fernández" />
+    
+    <!-- Fav icon -->
+    <link
+      rel="shortcut icon"
+      href="./cabecera.png"
+      type="image/x-icon"
+    />
+    <!-- Our CSS -->
+    <link media="screen" rel="stylesheet" href="css/style.css" type="text/css" >
+    
+    
+  </head>
+  <body>
+
+    <div id= "main">
+      <div id= "left_main" >
+        <div id="secondarydiv" class="secundario">
+          <!-- Zona de contenido secundario (Texto, lista, enlace, menú)-->
+          <h2> La Huerta de Manolo </h2>
+          <p>
+            Puedes consultar nuestros productos en nuestra tienda:
+            <a href="www.google.es"> La Huerta de Manolo </a>
+              <p>
+                En la huerta de Manolo podrás encontrar una amplia gama de productos para ayudarte con tus cosechas:
+              </p>
+              <ul>
+                <li>
+                  Semillas.
+                </li>
+                <li>
+                  Herramientas.
+                </li>
+                <li>
+                  Cuidado animal.
+                </li>
+                <li>
+                  Sulfatos.
+                </li>
+                
+              </ul>
+              
+              <p>
+              Accede a nuestros servicios:
+              </p>
+              <li><a href="#">Comprar</a></li>
+              
+              <li><a href="#">Otros Servicios</a></li>
+          </p>
+        </div>  
+      </div>
+      <div id= "right_main" >
+        <header id="header" class="superior">
+          <h1>Agrohelps</h1>
+          <h2>Banco de tiempo diseñado para el sector agrícola.</h2>
+          <nav>
+            <ul id="bar" >
+              <li><a class="bar" href="#">Inicio</a></li>
+              <li><a class="bar" href="#">Tutoriales</a></li>
+              <li><a class="bar" href="#">Cursos</a></li>
+              <li><a class="bar" href="#">Preguntas</a></li>
+              <li><a class="bar" href="#">Contacto</a></li>
+              <li><a class="bar" href="#">Registrarse</a></li>
+
+            </ul>
+          </nav>
+        </header>
+
+        <div id="maindiv" class="principal">
+          <!--Zona con texto principal. Debe incluir 3 secciones jerárquicas y párrafos de texto con enlace. Una tabla de datos. Imagen-->
+          <img src="./cabecera.png" height="55px" width="55px">
+          <br>
+          <h3>Banco de Tiempo.</h3>
+          <p>Aplicación destinada para usuarios del sector agricola que quieran crear una comunidad de ayuda y
+              servicios.
+          </p>
+          <h4>¿Qué puedes hacer?.</h4>
+          <p>Como usuario, podras compartir y solicitar ayuda a otros usuarios. ¿Eres bueno realizando injertos? ¿Sabes
+          manipular venenos para sulfatar plantaciones? ¡Agrega tus mejores cualidades y ayuda a tu comunidad!
+          </p>
+          <h5>Texto jerarquía 3</h5>
+          <p>Tercer texto de ejemplo.</p>
+
+          <table id="table1" summary="Misma tabla que realizamos en la práctica 1, usándola como ejemplo.">
+          <caption>Tabla de ejemplo</caption>
+          <tr>
+            <th scope="row">TABLA</th>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+          </tr>
+          <tr>
+            <th scope="row">Fila 1</th>
+            <td>F1-C1</td><td>F1-C2</td><td>F1-C3</td>
+          </tr>
+          <tr>
+            <th scope="row">Fila 2</th>
+            <td colspan="2">Celda de tamaño 1x2</td><td rowspan="2"><a class="enlace" href="www.google.es">Enlace de ejemplo</a></td>
+          </tr>
+          <tr>
+            <th scope="row">Fila 3</th>
+            <td>F3-C1</td><td>F3-C2</td>
+          </tr>
+        </table>
+
+        </div>
+
+        <div id="linksdiv" class="sitios">
+        <!-- Zona de enlaces a sitios relevantes. -->
+          <p>
+            <a href="www.youtube.es">Canal de Youtube</a><br>
+            <a href="www.twitter.es">Twitter</a><br>
+            <a href="www.facebook.es">Facebook</a>
+          </p>
+        </div>
+
+      </div>
+    
+      <!-- Pie de página. En este caso, un contacto directo al correo. -->
+      <footer class="pie">
+        <p>Información</p>
+        <p>Correo de contacto:
+          <a href="mailto:alu0100909012@ull.edu.es">
+            Adán de la Rosa Lugo
+          </a>.
+        </p>
+      </footer>
+    
+    </div>
+    
+        
+    
+  
+    
+  </body>
+  
+</html>

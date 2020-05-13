@@ -1,0 +1,115 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Arial";
+  margin: 2em;
+  width: 770px;  /*Anchura fija*/
+  height: 430px;  /*columna derecha de contenidos*/
+  color: #000000;
+  background-color: #D8F6CE;
+}
+
+h1 {
+  font-style: italic;
+  color: #00000;
+}
+
+/* Color normal de cualquier link */
+a:link{
+  color: blue;
+}
+
+/* Color de cualquier link cuando pones el ratón encima */
+a:hover{
+  color: red;
+}
+
+/* Color de cualquier link visitado */
+a:visited{
+  color: blue;
+}
+
+/* Color de cualquier link cuando pones el ratón encima aunque ya se haya visitado */
+a:hover{
+  color: red;
+}
+
+/* Color de cualquier link que esté dentro de una tabla */
+.enlace:link{
+  color:green;
+}
+
+#main, p{
+  margin-top: 0,5em;
+}
+#main {
+  position: relative;
+  width: 770px;
+  height: 1000px;
+}
+#left_main {
+  position: relative;
+  float: left;
+  width: 332px;
+  height: 925px;
+}
+#right_main {
+  position: relative;
+  float:right;
+  width: 430px;
+  height: 925px;
+}
+
+.pie{
+  height: 50px;
+  position: absolute;
+  float: bottom;
+  bottom: 0px;
+}
+
+.sitios{
+  position: relative;
+  float:right;
+  width:122px;
+  height: 572px;
+}
+
+.principal{
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 572px;
+}
+
+
+.secundario{
+  position: absolute;
+}
+
+.superior{
+  width: 430px;
+  height: 200px;
+  background-color: #e5e5e5;;
+}
+
+.bar {
+  border: black 2px solid;
+  display: inline;
+  position: relative;
+  
+}
+
+#bar {
+  list-style: none;
+  display: flex;
+  padding: 9px;
+}
+#table1 {
+  border-collapse: collapse;
+  width:100%;
+  height:120px;
+}
+
+#table1, th,td {
+  border: black 2px solid;
+}

@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div role="main">
+      <div tabindex="0">
+        <h1>Pregunta 3: calcular el cambio entre diferentes monedas</h1>    
+          Introduce un valor: <input aria-required="true" type="number" id="valor" value="">
+        <div id="coin1"  tabindex="0">    
+          Moneda Inicial:
+          <input  role="radio" type="radio" name="Money1" value="Dolars"> Dolares
+          <input  role="radio" type="radio" name="Money1" value="Euros"> Euros
+          <input  role="radio" type="radio" name="Money1" value="Yuan"> Yuan
+          <input  role="radio" type="radio" name="Money1" value="Rupias"> Rupias
+        </div>
+        <div id="coin2" tabindex="0">    
+          Moneda final:
+          <input  role="radio" type="radio" name="Money2" value="Dolars"> Dolares
+          <input  role="radio" type="radio" name="Money2" value="Euros"> Euros
+          <input  role="radio" type="radio" name="Money2" value="Yuan"> Yuan
+          <input  role="radio" type="radio" name="Money2" value="Rupias"> Rupias
+        </div>
+        
+        <button role="button" onclick="changeCoin()">Cambiar moneda</button>
+        
+        <br> Resultado:<input type="text" id="Cajasalida" name="Resultado">
+      </div>
+      
+      <div tabindex="0">
+        <h2> Titulo de prueba </h2>
+        <p>
+          Esto es un parrafo de prueba para la pregunta 5.
+          <a href="">enlace 1</a>
+          <a href="">enlace 2</a>
+          <a href="">enlace 3</a>
+        </p>
+      </div>
+      
+      <div tabindex="0">
+        <script type="text/javascript">
+        document.write(result)
+        </script>
+      </div>
+      <div tabindex="0">
+        <h1>Pregunta 4: Define una función javascript que calcule la edad de los usuarios, y su sueldo</h1>
+        <button onclick="calcUser(0)">calcular datos de Pepe</button>
+        <button onclick="calcUser(1)">calcular datos de batman</button>
+          <br> Edad:<input type="text" id="CajaEdad" name="Edad">
+          <br> Sueldo:<input type="text" id="CajaSueldo" name="Sueldo">
+        
+      </div>
+      <div tabindex="0">
+        <h1>Pregunta 5: Cantidad de párrafos, enlaces y encabezados en tu página de inicio. </h1>
+        <button onclick="contarDom()">Contar elementos del dom</button>
+        <br> Cantidad:<input type="text" id="CajaCantidad" name="Cantidad">
+        <br> Nº Divs:<input type="text" id="CajaDiv" name="Divs">
+        <br> Nº Enlaces:<input type="text" id="CajaEnlaces" name="Enlaces">
+        <br> Nº de encabezados H1:<input type="text" id="CajaH1" name="H1">
+        <br> Nº de encabezados H2:<input type="text" id="CajaH2" name="H2">
+        <br> Nº de encabezados H3:<input type="text" id="CajaH3" name="H3">
+        <br> Nº de Párrafos:<input type="text" id="CajaParra" name="Parrafos">
+      </div>
+    </div>
+  </body>
+  
+</html>

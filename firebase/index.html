@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Ejemplo Firebase</title>
+    <meta charset="utf-8">
+    <meta
+            name="description"
+            content="Práctica - Introducción a Firebase."
+        />
+    <meta name="keywords" content="Practica, Uya , html" />
+    <meta name="author" content="Adán de la Rosa Lugo" />
+    <meta name="author" content="Alejandro Estévez Chinea" />
+    <meta name="author" content="Óscar Ignacio Pozo Fernández" />
+    
+    <!-- Fav icon -->
+    <link
+      rel="shortcut icon"
+      href="https://cdn.glitch.com/097eb43e-c343-4003-8dc1-0d09b75e76a6%2Ficono.png?v=1578231527642"
+      type="image/x-icon"
+    />
+  </head>
+  
+  <body> 
+  <h1 tabindex="0">Prueba Firebase</h1>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script>
+    var firebaseConfig = {
+    apiKey: "AIzaSyCyT1iLw8ZiLhtkt7ZzsKup15ueEZHGde8",
+    authDomain: "mifirebase1-6010f.firebaseapp.com",
+    databaseURL: "https://mifirebase1-6010f.firebaseio.com",
+    projectId: "mifirebase1-6010f",
+    storageBucket: "mifirebase1-6010f.appspot.com",
+    messagingSenderId: "489108163074",
+    appId: "1:489108163074:web:e7881e7f5297b136d4751b"
+  };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="js/script3.js"></script>
+    <div role="form" id="Formulario">
+    <h2 tabindex="0"> Crear una cuenta nueva: </h2>
+    Nombre: <br> <input id ="nombre" type="text" name="nombre" value="">
+    <br> Email: <br> <input id="email" type="email" name="email" value="">
+    <br> Edad: <br> <input id="edad" type="number" name="edad" value="">
+    <br> Contraseña: <br> <input id="contraseña" type="password" name="contraseña" value="">
+    <button id="boton" onclick="registrar()"> Regístrame </button>
+    </div>
+  </body>
+</html>

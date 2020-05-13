@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+  <head>
+    <title>Agrohelps</title>
+    <meta charset="utf-8">
+    <meta
+            name="description"
+            content="Práctica - Introducción a ajax."
+        />
+    <meta name="keywords" content="Practica, Uya , html" />
+    <meta name="author" content="Adán de la Rosa Lugo" />
+    <meta name="author" content="Alejandro Estévez Chinea" />
+    <meta name="author" content="Óscar Ignacio Pozo Fernández" />
+    
+    <!-- Fav icon -->
+    <link
+      rel="shortcut icon"
+      href="https://cdn.glitch.com/097eb43e-c343-4003-8dc1-0d09b75e76a6%2Ficono.png?v=1578231527642"
+      type="image/x-icon"
+    />
+    <!-- JQUERY CDN-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+   <!-- OUR JS-->
+    <script src="./js/script2.js"></script>
+    
+
+       
+  </head>
+  
+  <body>
+    <form role="form" tabindex="0" id="formulario" action="#">
+      <h1 tabindex="0">Petición de AJAX</h1>
+      <p tabindex="0">
+        Introduce los valores que quieres consultar con el servidor.
+      </p>
+      PostId: <input type="text" id="postId" name="postId">
+      email: <input type="email" id="email" name="email">
+      id: <input type="text" id="id" name="id" value="">
+      <button id= "enviar" aria-label="Enviar peticion" class="btn btn-primary" type="submit">Enviar</button>
+    </form>
+    
+    <div role="main" id="datos">
+      <h2 tabindex="0">Resultados de la petición</h2>
+      <p id="estado" tabindex="0" >En esta sección se mostrarán los resultados.</p>
+      
+    </div>  
+    
+  </body>
+</html>

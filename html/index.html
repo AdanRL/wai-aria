@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Agrohelps</title>
+    <meta charset="utf-8">
+    <meta
+            name="description"
+            content="Práctica - Introducción a HTML."
+        />
+    <meta name="keywords" content="Practica, Uya , html" />
+    <meta name="author" content="Adán de la Rosa Lugo" />
+    <meta name="author" content="Alejandro Estévez Chinea" />
+    <meta name="author" content="Oscar Ignacio Pozo Fernández" />
+    <link
+      rel="shortcut icon"
+      href="./icono.png"
+      type="image/x-icon"
+    />
+
+  </head>
+  <body>
+    <!-- header  -->
+    <header role="banner" tabindex="0">
+      <h1>Agrohelps</h1>
+      <h2>Banco de tiempo diseñado para el sector agrícola.</h2>
+      <form role="form" tabindex="0" action="." method="post" >
+       <ul>
+         <li>
+           <label for="name" >Nombre: </label>
+           <input type="text" id="name" name="user_name">
+         </li>
+         <li>
+           <label for="password" >Contraseña: </label>
+           <input type="password">
+           
+         </li>
+        </ul>
+        <li class="button">
+          <button type="submit">Inicio de sesion</button>
+        </li>
+        <li class="button">
+          <button type="reset">Borrar</button>
+        </li>
+      </form>
+    
+    </header>
+    
+    <!-- tabla  -->
+    <table role="grid" style="width:120%">
+      <caption>Tabla de ejemplo</caption>
+      <tr role ="row">
+        <th role="columnheader" tabindex="0" scope="row">TABLA</th>
+        <th role="columnheader" tabindex="0">Columna 1</th>
+        <th role="columnheader" tabindex="0">Columna 2</th>
+        <th role="columnheader" tabindex="0">Columna 3</th>
+      </tr>
+      <tr role ="row">
+        <th tabindex="0" role="columnheader" scope="row">Fila 1</th>
+        <td tabindex="0" role="gridcell">F1-C1</td>
+        <td tabindex="0" role="gridcell">F1-C2</td>
+        <td tabindex="0" role="gridcell">F1-C3</td>
+      </tr>
+      <tr>
+        <th tabindex="0" role="columnheader" scope="row">Fila 2</th>
+        <td tabindex="0" role="gridcell" colspan="2">Celda de tamaño 1x2</td>
+        <td tabindex="0" role="gridcell" rowspan="2">Celda de tamaño 2x1</td>
+      </tr>
+      <tr>
+        <th tabindex="0" role="columnheader" scope="row">Fila 3</th>
+        <td tabindex="0" role="gridcell">F3-C1</td>
+        <td tabindex="0" role="gridcell">F3-C2</td>
+      </tr>
+    </table>
+
+    <!-- Apartado de secciones -->
+    <section role="contentinfo" tabindex="0" id="section1" class="all_sections">
+    <h2>Titulo 1: Sección principal agricola. </h2>
+      <div>
+        <img src="./agricultura.jpg" alt="fondo de prueba" height="150px" width="150px">
+      </div>
+      <p>
+        En esta <b>sección</b> pondremos el contenido principal de la página
+      </p>
+    </section>
+    <section role="complementary" tabindex="0" id="section2" class="all_sections">
+    <h2>Titulo 2: Sección secundaria agricola. </h2>
+      <p>
+        segunda sección de la pagina con contenido menos importante
+      </p>
+    </section>
+    
+    <!-- Apartado de articles -->
+    <article role="article" tabindex="0">
+      <h2>
+        Articulo con contenido
+      </h2>
+      <p>
+        Parrafo del articulo 
+      </p>
+    </article>
+    
+    <!-- pie de página  -->
+    <footer>
+      <p>Información</p>
+      <p>Correo de contacto:
+        <a href="mailto:alu0100909012@ull.edu.es">
+          Adán de la Rosa Lugo
+        </a>
+      </p>
+    </footer>    
+  </body>
+</html>
